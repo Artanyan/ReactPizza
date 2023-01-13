@@ -1,0 +1,49 @@
+.nav_pizza {
+    display: flex;
+    margin-top: 40px;
+   
+}
+
+.nav_1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    button{
+        padding: 10px;
+        background: #F9F9F9;
+        border-radius: 30px;
+        border: hidden;
+        transition-duration: 0.4s;
+    }
+    button:hover {
+        background-color: #2C2C2C;
+        color: white;
+      }
+}
+
+.nav_2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    ul{
+        display: flex;
+    }
+
+    p{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        
+        letter-spacing: 0.015em;
+    }
+
+
+    button{
+        background-color: #ffffff;
+        border: hidden;
+    }
+}

@@ -1,0 +1,113 @@
+.shop_pizza{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 35px 48px 96px 67px;
+}
+
+.card{
+    width: 280px;
+    height: 460px;
+    margin: 35px 35px 65px 0px;
+    p{
+        display: flex;
+        justify-content: center; 
+        padding-bottom: 20px;
+
+        font-style: normal;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.01em;
+    }
+
+    &:last-child{
+        margin-right: 0px;
+    }
+    &:nth-child(4n){
+        margin-right: 0px;
+    }
+    &:nth-last-child(-n +4){
+        margin-bottom: 0px;
+    }
+}
+.item_1{
+    display: block;
+    height: 85px;
+    width: 280px;
+    margin-bottom: 17px;
+    border-radius: 10px;
+
+    background-color:#F3F3F3;
+    
+        p{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            text-align: center;
+            letter-spacing: 0.015em;
+
+            color: #2C2C2C;
+        }
+}
+
+.choice_dough{
+    display: flex;
+    justify-content: space-around;
+
+    button{
+        width: 130px;
+        margin-top: 5px;
+        padding: 10px;
+        background: #F9F9F9;
+        border-radius: 5px;
+        border: hidden;
+        transition-duration: 0.4s;
+    }
+    button:hover {
+        background-color: #EB5A1E;
+        color: white;
+      }
+}
+.choice_centimeter{
+    display: flex;
+    justify-content: space-around;
+
+    button{
+        width: 85px;
+        margin-top: 5px;
+        padding: 10px;
+        background: #F9F9F9;
+        border-radius: 5px;
+        border: hidden;
+        transition-duration: 0.4s;
+    }
+    button:hover {
+        background-color: #EB5A1E;
+        color: white;
+      }
+}
+.buy_button{
+    display: flex;
+    justify-content: space-around;
+
+    button{
+        margin-top: 10px;
+        height: 40px;
+        color: #EB5A1E;
+        padding: 10px;
+        background: #FFFFFF;
+        border-radius: 25px;
+        border: 1px solid #EB5A1E;
+        transition-duration: 0.4s;
+    }
+    button:hover {
+        background-color: #EB5A1E;
+        color: white;
+      }
+    
+    p{
+        margin-top: 17px;
+    }
+}
